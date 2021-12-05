@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( // it is a canavas which haves child
       appBar: AppBar(
         title: Text("Catalog App"),
       ),
@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       drawer: Drawer(
-        
+       
       ),
     );
   }
