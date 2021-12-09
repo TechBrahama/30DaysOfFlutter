@@ -6,9 +6,15 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold( // it is a canavas which haves child
+    return Scaffold(
+      // it is a canavas which haves child
       appBar: AppBar(
-        title: Text("Catalog App"),
+        title: Text(
+          "Catalog App",
+          //style: TextStyle(color: Colors.black),
+        ),
+        //backgroundColor: Colors.white,
+        // iconTheme: IconThemeData(color: Colors.black),
       ),
       body: Center(
         child: Container(
