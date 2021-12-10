@@ -1,0 +1,52 @@
+{
+    "products":[
+        {
+            "id": "product01",
+            "name": "Product 01",
+            "desc": "Describtion of product 01",
+            "price": 998,
+            "color": "#33505a",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Ffluttercomm&psig=AOvVaw0LlxtkTr0NBqxlKbzNLOp-&ust=1639139122843000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiPx6Db1vQCFQAAAAAdAAAAABAL"
+        },
+        {
+            "id": "product01",
+            "name": "Product 02",
+            "desc": "Describtion of product 02",
+            "price": 998,
+            "color": "#33505a",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Ffluttercomm&psig=AOvVaw0LlxtkTr0NBqxlKbzNLOp-&ust=1639139122843000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiPx6Db1vQCFQAAAAAdAAAAABAL"
+        },
+        {
+            "id": "product03",
+            "name": "Product 03",
+            "desc": "Describtion of product 01",
+            "price": 998,
+            "color": "#33505a",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Ffluttercomm&psig=AOvVaw0LlxtkTr0NBqxlKbzNLOp-&ust=1639139122843000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiPx6Db1vQCFQAAAAAdAAAAABAL"
+        },
+        {
+            "id": "product04",
+            "name": "Product 04",
+            "desc": "Describtion of product 01",
+            "price": 998,
+            "color": "#33505a",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Ffluttercomm&psig=AOvVaw0LlxtkTr0NBqxlKbzNLOp-&ust=1639139122843000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiPx6Db1vQCFQAAAAAdAAAAABAL"
+        },
+        {
+            "id": "product05",
+            "name": "Product 05",
+            "desc": "Describtion of product 01",
+            "price": 998,
+            "color": "#33505a",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Ffluttercomm&psig=AOvVaw0LlxtkTr0NBqxlKbzNLOp-&ust=1639139122843000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiPx6Db1vQCFQAAAAAdAAAAABAL"
+        },
+        {
+            "id": "product06",
+            "name": "Product 06",
+            "desc": "Describtion of product 01",
+            "price": 998,
+            "color": "#33505a",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmobile.twitter.com%2Ffluttercomm&psig=AOvVaw0LlxtkTr0NBqxlKbzNLOp-&ust=1639139122843000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiPx6Db1vQCFQAAAAAdAAAAABAL"
+        }
+    ]
+}
