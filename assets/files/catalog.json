@@ -1,7 +1,7 @@
 {
     "products":[
         {
-            "id": "product01",
+            "id": 1,
             "name": "Product 01",
             "desc": "Describtion of product 01",
             "price": 998,
@@ -9,7 +9,7 @@
             "image": "https://images.pexels.com/photos/8066715/pexels-photo-8066715.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
         },
         {
-            "id": "product01",
+            "id": 2,
             "name": "Product 02",
             "desc": "Describtion of product 02",
             "price": 998,
@@ -17,7 +17,7 @@
             "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
         },
         {
-            "id": "product03",
+            "id": 3,
             "name": "Product 03",
             "desc": "Describtion of product 01",
             "price": 998,
@@ -25,7 +25,7 @@
             "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
         },
         {
-            "id": "product04",
+            "id": 4,
             "name": "Product 04",
             "desc": "Describtion of product 01",
             "price": 998,
@@ -33,7 +33,7 @@
             "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
         },
         {
-            "id": "product05",
+            "id": 5,
             "name": "Product 05",
             "desc": "Describtion of product 01",
             "price": 998,
@@ -41,7 +41,7 @@
             "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
         },
         {
-            "id": "product06",
+            "id": 6,
             "name": "Product 06",
             "desc": "Describtion of product 01",
             "price": 998,
