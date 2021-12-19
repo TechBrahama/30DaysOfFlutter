@@ -21,13 +21,18 @@ class _HomePageState extends State<HomePage> {
   }
 
   loadData() async {
-    var catalogJson = await rootBundle.loadString("assets/files/catalog.json");
-    var decodeData = jsonDecode(catalogJson);
+    final catalogJson =
+        await rootBundle.loadString("assets/files/catalog.json");
+    final decodeData = jsonDecode(catalogJson);
+    var productsData = decodeData["products"];
+    CatalogModel.items = List.from(productsData)
+        .map<Item>((item) => Item.fromMap(item))
+        .toList();
+    setState(() {});
   }
 
   @override
   Widget build(BuildContext context) {
-    final dummylist = List.generate(20, (index) => CatalogModel.items[0]);
     return Scaffold(
       // it is a canavas which haves child
       appBar: AppBar(
@@ -41,12 +46,11 @@ class _HomePageState extends State<HomePage> {
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
         child: ListView.builder(
-          itemCount: dummylist.length, //CatalogModel.items.length,
-
+          itemCount: CatalogModel.items.length,
           itemBuilder: (context, index) {
             return Itemwidget(
               //item: CatalogModel.items[index],
-              item: dummylist[index],
+              item: CatalogModel.items[index],
             );
           },
         ),
