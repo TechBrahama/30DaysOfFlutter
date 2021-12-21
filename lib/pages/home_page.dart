@@ -39,11 +39,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100],
+      backgroundColor: context.cardColor,
       floatingActionButton: FloatingActionButton(
         onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
         child: Icon(CupertinoIcons.cart),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: context.theme.buttonColor,
       ),
       // it is a canavas which haves child
       // appBar: AppBar(
