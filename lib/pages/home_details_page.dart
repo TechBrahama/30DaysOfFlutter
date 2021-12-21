@@ -12,10 +12,12 @@ class HomeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+      ),
       backgroundColor: Colors.grey[100],
       bottomNavigationBar: Container(
-        color: Colors.white60,
+        color: Colors.white,
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: EdgeInsets.zero,
@@ -39,7 +41,7 @@ class HomeDetailPage extends StatelessWidget {
             Hero(
               tag: Key(catalog.id.toString()),
               child: Image.network(catalog.image),
-            ).h32(context),
+            ).h24(context).pOnly(top: 10, bottom: 10),
             Expanded(
                 child: VxArc(
               height: 25.0,
@@ -52,7 +54,13 @@ class HomeDetailPage extends StatelessWidget {
                   children: [
                     catalog.name.text.xl3.color(Colors.black).bold.make(),
                     catalog.desc.text.xl.coolGray400.make(),
-                    8.heightBox,
+                    10.heightBox,
+                    "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged"
+                        .text
+                        .lg
+                        .coolGray500
+                        .make()
+                        .p16(),
                   ],
                 ).py64(),
               ),
