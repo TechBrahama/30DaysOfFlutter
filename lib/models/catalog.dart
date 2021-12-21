@@ -10,6 +10,13 @@ class CatalogModel {
   //       image:
   //           "https://images.pexels.com/photos/8066715/pexels-photo-8066715.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
   // ];
+
+  // Get Item by id
+  Item getById(int id) =>
+      items.firstWhere((element) => element.id == id, orElse: null);
+
+  //get Item by position
+  Item getByPosition(int pos) => items[pos];
 }
 
 class Item {
