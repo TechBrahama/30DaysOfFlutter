@@ -6,7 +6,7 @@
             "desc": "Describtion of product 01",
             "price": 998,
             "color": "#33505a",
-            "image": "https://images.pexels.com/photos/8066715/pexels-photo-8066715.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            "image": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_HowToBuy_iPhone-13-Pro_09162021_carousel.jpg.large.jpg"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "desc": "Describtion of product 02",
             "price": 998,
             "color": "#33505a",
-            "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+            "image": "https://atlas-content-cdn.pixelsquid.com/assets_v2/249/2490027429930734949/jpeg-600/G03.jpg?modifiedAt=1"
         },
         {
             "id": 3,
